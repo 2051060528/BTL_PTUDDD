@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="monhoc.Home1Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textColor="#D5F87979"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="9dp"
+        android:gravity="center"
+        android:text="Ứng dụng ôn thi trắc nghiệm"
+        android:layout_marginTop="3dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/biahome"
+        android:scaleType="fitCenter"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        android:textColor="#323030"
+        android:text="Chào mừng bạn đến với ứng dụng ôn thi trắc nghiệm! Với ứng dụng này, bạn có thể nâng cao kiến thức của mình và đánh giá trình độ qua các bài thi trắc nghiệm đa dạng. Với hàng ngàn câu hỏi và chủ đề đa dạng, từ các môn học như Toán, Hóa, Sinh, Lý và Tiếng Anh, bạn có thể dễ dàng tìm hiểu và ôn luyện trên điện thoại di động của mình. Bên cạnh đó, ứng dụng còn cung cấp các chế độ thi và tính điểm tự động, giúp bạn kiểm tra và cải thiện kiến thức một cách thuận tiện và hiệu quả."
+        android:layout_marginTop="255dp"
+        android:justificationMode="inter_word"
+        android:lineSpacingExtra="8dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp" />
+
+</FrameLayout>

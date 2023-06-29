@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+    </group>
+
+    <item android:title="Đề thi trắc nghiệm">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/toan"
+                    android:icon="@drawable/checklist"
+                    android:title="Môn Toán" />
+                <item
+                    android:id="@+id/sinh"
+                    android:icon="@drawable/checklist"
+                    android:title="Môn Sinh" />
+                <item
+                    android:id="@+id/hoa"
+                    android:icon="@drawable/checklist"
+                    android:title="Môn Hóa" />
+                <item
+                    android:id="@+id/tienganh"
+                    android:icon="@drawable/checklist"
+                    android:title="Môn Tiếng Anh" />
+                <item
+                    android:id="@+id/ly"
+                    android:icon="@drawable/checklist"
+                    android:title="Môn Lý" />
+                <item
+                    android:id="@+id/search"
+                    android:icon="@drawable/search"
+                    android:title="Tìm kiếm câu hỏi" />
+                <item
+                    android:id="@+id/diem"
+                    android:icon="@drawable/list"
+                    android:title="Danh sách điểm" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Liên hệ">
+        <menu>
+            <item
+                android:id="@+id/email"
+                android:icon="@drawable/email"
+                android:title="Email: hoanghong4505@gmail.com" />
+            <item
+                android:id="@+id/message"
+                android:icon="@drawable/message"
+                android:title="Message: 0363334505" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/questall"
+        android:title="Tất cả" />
+    <item
+        android:id="@+id/qtoan"
+        android:title="Toán học" />
+    <item
+        android:id="@+id/qhoa"
+        android:title="Hóa học" />
+    <item
+        android:id="@+id/qsinh"
+        android:title="Sinh học" />
+    <item
+        android:id="@+id/qanh"
+        android:title="Tiếng anh" />
+    <item
+        android:id="@+id/qly"
+        android:title="Vật lý" />
+</menu>
