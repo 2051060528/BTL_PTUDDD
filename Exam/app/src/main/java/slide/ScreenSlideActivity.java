@@ -68,7 +68,7 @@ public class ScreenSlideActivity extends FragmentActivity {
         subject = intent.getStringExtra("subject");
         num_exam = intent.getIntExtra("num_exam",0);
 
-        totalTimer=10;
+        totalTimer=1;
         timer = new CounterClass(totalTimer*60*1000, 1000);
         questionController = new QuestionController(this);
         arr_Question = new ArrayList<>();
@@ -264,6 +264,7 @@ public class ScreenSlideActivity extends FragmentActivity {
         @Override
         public void onFinish() {
             tvTimer.setText("00:00");  //SetText cho textview hiện thị thời gian.
+            result();
         }
     }
 }
